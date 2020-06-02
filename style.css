@@ -1,0 +1,178 @@
+/*GENERAL*/
+*{
+	box-sizing: border-box;
+}
+body{
+	display:flex;
+	width:1000px;
+	font-size:16px;
+	}
+h1{
+	font-size: 30px;
+	font-weight: lighter;
+	margin: 0; 
+}
+
+h2{
+	font-weight: lighter;
+	margin-top: 1px;
+}
+
+h3{
+	text-transform: uppercase;
+	font-weight: bold;
+	border-bottom: 1px solid #B0BEC5;
+	margin-left: 10px; 
+	list-style: none;
+}
+h4{
+	font-weight: bold;
+}
+h5{
+	font-weight: lighter;
+}
+
+p{
+ 	text-align: justify;
+ 	font-size: 0.75em;
+}
+ul{
+	font-weight: bold;
+	list-style: none;
+
+}
+
+/*SIDEBAR*/
+
+#sidebar{
+	width: 20%;
+	background:#B0BEC5;
+	position: relative;
+}
+
+#sidebar #photo{
+	width:100%;
+	height:200px;
+	border:1px solid black;
+	margin:0;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+}
+
+#sidebar #photo img{
+	border-radius:50%;
+	height:100px;
+	width:100px;
+}
+
+#sidebar .sidebar_titre{
+	width:100%;
+	background:#424242;
+	color: #ECEFF1;
+	text-transform:uppercase;
+	text-align:center;
+	margin:0;
+	padding:5px 0;
+}
+
+#sidebar #contact ul{
+	list-style-type: none;
+	margin:0;
+	padding-left:20px;
+}
+
+#sidebar #contact li{
+	margin: 1em 0;
+	font-size:0.75em;
+}
+
+ #sidebar  #a-propos > p{
+ 	padding: 10% 15% 125% 15%;
+ 	height: 400px;
+ 	text-align: justify;
+ 	font-size: 0.75em;
+}
+
+#sidebar #loisirs{
+	position:absolute;
+	left:0;
+	bottom:0;
+	width:100%;
+}
+
+#sidebar footer article ul{
+	list-style: none;
+}
+
+#loisirs ul li{
+	display: inline-flex;
+	list-style-type: none;
+	padding: 10px;
+}
+/*RIGHT-SIDE*/
+
+/*HEADER*/
+
+header{
+	margin-top: 100px;
+	height: 100px;
+	text-align:center;
+	padding-left: 30px;
+}
+
+header h1, header h2{
+	text-align: left;
+}
+header h2 #souligne{
+	border-bottom: 1px solid #B0BEC5;
+}
+
+#clear{
+	height: 200px;
+}
+
+.yellow{
+	color: #B0BEC5;
+}
+
+/*SECTION*/
+
+section{
+	margin-left: 30px;	
+}
+
+section ul{
+	display: inline-block;
+	text-align: left;
+}
+/*FORMATION & EXPERIENCE*/
+
+#space{
+	padding-right: 25px;
+	color: #B0BEC5;
+}
+.annee{
+ display: block;
+}
+.page{
+	display: flex;
+}
+.droit{
+	padding-left: 200px;
+	line-height: 1.5px;
+}
+
+/*RECOMMANDATION*/
+
+.recommandation{
+	display: flex;
+}
+.recommandation-2{
+	padding-left:200px;
+}
+
+
+
+
+

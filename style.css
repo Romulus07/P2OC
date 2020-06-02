@@ -101,14 +101,27 @@ ul{
 	width:100%;
 }
 
-#sidebar footer article ul{
+#sidebar footer ul{
 	list-style: none;
+	padding:0;
+	display:flex;
+	justify-content:center;
 }
 
 #loisirs ul li{
 	display: inline-flex;
 	list-style-type: none;
 	padding: 10px;
+}
+
+#loisirs i{
+	height:30px;
+	width:30px;
+	border-radius:50%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border:1px solid black;
 }
 /*RIGHT-SIDE*/
 
@@ -164,7 +177,9 @@ section ul{
 }
 
 /*RECOMMANDATION*/
-
+main footer{
+	margin-left:30px;
+}
 .recommandation{
 	display: flex;
 }

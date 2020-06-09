@@ -206,6 +206,8 @@ main footer{
 		margin-top: 0;
 	}
 
+/*PHOTO MEDIA QUERIES */
+
 	#phone{
 	width:100%;
 	height:200px;
@@ -214,12 +216,13 @@ main footer{
 	justify-content: center;
 	align-items:center;
 	background:#B0BEC5;
-}
+	}
 	#phone img{
 	border-radius:50%;
 	height:100px;
 	width:100px;
-}
+	}
+/*HEADER MEDIA QUERIES*/
 	header{
 		margin-top: 0;
 	}
@@ -230,6 +233,7 @@ main footer{
 		text-align:center;
 		
 	}
+
 	h3{
 		text-align: center;
 		margin-bottom: 20px;
@@ -242,48 +246,54 @@ main footer{
 	text-align: center;
 	}
 
-	section{
-
-	}
+	/*PAGE MEDIA QUERIES*/
 	.page{
 		display: flex;
 		flex-direction: column;
 		text-align: center;
-	
 	}
 	p{
 		text-align: center;
 	}
+
 	li{
 		margin-right: 20px: 
 	}
+
 	.annee{
 		padding-right: 50px;
 	}
+
 	.droit{
 		padding: 0;
 	}
+
 	#sidebar{
 		width: 100%;
 		height: 450px;
 	}
+
 	.recommandation{
 		text-align: center;
 		display: flex;
 		flex-direction: column;
 	}
+
 	.recommandation-2{
 		text-align: center;
 		padding: 0;
 	} 
+
 	#sidebar #photo{
 		display: none;
 	}
+
 	#sidebar #loisirs{
 	left:0;
 	bottom:0;
 	width:100%;
     }
+
     #sidebar #contact li{
 	margin: 1em 0;
 	font-size:0.75em;

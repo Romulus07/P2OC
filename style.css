@@ -193,6 +193,9 @@ main footer{
 .lieux{
 	margin-left: 40px;
 }
+footer h3{
+	margin-left: 30px;
+}
 
 /* MEDIA QUERIES TABLET*/
 
@@ -247,6 +250,10 @@ main footer{
 	
 	section h4{
 		text-align: center;
+	}
+
+	section h3{
+		margin-left: 0;
 	}
 
 	/*PAGE MEDIA QUERIES*/
